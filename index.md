@@ -156,19 +156,32 @@ Although using standard processes result in positive outcomes such as predictabi
 
 Each of these adaptations can result in one or multiple process transformations. These transformations are specific and different throughout each stage change. Also, processes can suffer instantiation, enactment and improvements, even when they are not necessarily changed between stages. Read below to understand the differences of each transformation and/or adaptation processes can undergo. 
 
-
-
 ***
 
 ### Reification
 
-This transformation represents when the concepts from the Conceptual View are transformed in processes. This means this process will now have a starting point, a flow, indications of responsibilities for groups of process activities, i.e., will have incorporated the structured elements that belong to the Conceptual View.
+This transformation represents when the concepts from the Conceptual View are transformed in processes. This means this process will now have a starting point, a flow, indications of responsibilities for groups of process activities, i.e., will have incorporated the structured elements that belong to the Conceptual View. The figure below illustrate the Conceptual view as a blue cloud with some concepts. All 4 processes (P1, P2, P3 and P4) are reified from the concepts in the cloud. These are definitions coming from and based on extensive research and best-practices on software development. The concepts in the cloud are tipically represented in natural language or non-formal representations, which demands an expert to transform these concepts in processes (reification). 
+
+<center>
+ <img src="./images/ReificationExample.png" alt="1st Reification Example"/>
+ Fig. Illustration of Reification procedure concepts.
+</center>
+
+Let's try to make things clear with an example, represented in BPMN. Let's suppose a project manager is defining tasks for a project, and she/he gathered some concepts with the company's VP after a long meeting. The new reified process can be something like: 
+
+<center>
+ <img src="./images/ReificationExample2.png" alt="2nd Reification Example"/>
+ Fig. Illustration of reified process.
+</center>
+
+If at this point you're thinking "this is really hard to predict and it's a very creative procedure", guess what? You're so right!! And I don't mean to be mean, but there's some other aspects to consider such as time, team expertise, budget, technologies... None of these were in the conceptual view, right? That is why there are other transformations that are very likely to happen. Next topic will demonstrate the next one :) 
+
 
 ***
 
 ### Tailoring
 
-When in the Process View stage, processes may need to be modified to comply with business or environment needs. These modifications are called tailoring. In other words, a main established process will be adapted when running certain instances. For example, if one project of a company works with hazardous materials, this project might need to run different steps in order to comply with safety obligations, but at the same time, this project also runs the main established organizational process. 
+Processes may need to be modified to comply with business or environment needs. These modifications are called tailoring. In other words, a main established process will be adapted when running certain instances. For example, if one project of a company works with hazardous materials, this project might need to run different steps in order to comply with safety obligations, but at the same time, this project also runs the main established organizational process. 
 One of the modification operations a process can experience is Merge. This means two or more process activities can be merged into one. 
 
 As an example, let's suppose a worker has to collect, verify and store measures (e.g., size and weight) of parcels that are supposed to be mailed to clients, so a system can forsee delivery expenses. 
