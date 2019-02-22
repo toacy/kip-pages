@@ -218,11 +218,19 @@ Let's suppose a person works in a lingerie store, which every year showcases pro
  <img src="./images/InstantiationExample.png" alt="Instantiation Example using BPMN"/>
  Fig. Instantiation example using BPMN.
 </center>
+
 ***
 
 ### Execution/Enactment
 
-The execution of the Work plan is called enactment. Through enactment it is possible to generate logs of work plans executions.
+The execution of the Work plan is called enactment. Through enactment it is possible to generate logs of work plans executions. For every time ~ the very famous lingerie store cashier ~ follows the intantiated process, and a purchase is associated to a number (purchase 002 of March 1st, 2018), and the receptionist at a certain store says "Good morning and welcome!" to each client, this means the processes were enacted. 
+
+Every June (the foundation month of the brand), the main store located in NYC gives away free samples of new fragrances. Although not a formalized process activity, it must be something consistent every June.  
+
+<center>
+ <img src="./images/EnactmentExample.png" alt="Enactment Example using BPMN"/>
+ Fig. Enactment example using BPMN.
+</center>
 
 ***
 
