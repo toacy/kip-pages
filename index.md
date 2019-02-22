@@ -237,4 +237,8 @@ Every June (the foundation month of the brand), the main store located in NYC gi
 ### Improvement
 
 After enactment, logs of each process and instance execution are recorded. Analyzing these logs, looking either for pattern repetition or activities not executed, can be used as input to process Improvement. 
+
+Still on the famous lingerie store example, let's suppose that a certain department noticed the NYC store is the store that sells most of the new fragrances, and when analyzing the logs of the enacted process, they noticed it's the only store giving away free samples in June. Then, the main process can be improved, so every store gives free samples, in an attempt to increase new fragrance sales in every store. 
+
+
 ***
