@@ -178,8 +178,15 @@ A simple example using a common notation (BPMN) is shown below.
 After posting all parcels in the post office service, some prices may vary. The original process does not consider that measures and prices might have to be updated. A tailored process to include this unforeseen activity is illustrated below. One process activity was added to the original process.
 
 <center>
- <img src="./images/TailoringExample.png" alt="Tailoring Example using BPMN"/>
- Fig. Tailoring example using BPMN.
+ <img src="./images/TailoringExample.png" alt="1st Tailoring Example using BPMN"/>
+ Fig. 1st Tailoring example using BPMN.
+</center>
+
+Another (simpler) example is when an online store starts accepting debit as payment method for centain cases (for example, if a client purchase is over $100). Then, the debit card option has to be added to the process. This can be done using Tailoring. The blue elements below are the elements that were added during this process tailoring. 
+
+<center>
+ <img src="./images/TailoringExample2.png" alt="2nd Tailoring Example using BPMN"/>
+ Fig. 2nd Tailoring example using BPMN.
 </center>
 
 Source: PILLAT, R. (2018). BPMNt: A proposal for flexible process tailoring representation in BPMN. Tese de Doutorado. Universidade Federal do Rio de Janeiro, Brasil. 
