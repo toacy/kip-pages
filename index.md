@@ -163,7 +163,7 @@ Each of these adaptations can result in one or multiple process transformations.
 This transformation represents when the concepts from the Conceptual View are transformed in processes. This means this process will now have a starting point, a flow, indications of responsibilities for groups of process activities, i.e., will have incorporated the structured elements that belong to the Conceptual View. The figure below illustrate the Conceptual view as a blue cloud with some concepts. All 4 processes (P1, P2, P3 and P4) are reified from the concepts in the cloud. These are definitions coming from and based on extensive research and best-practices on software development. The concepts in the cloud are tipically represented in natural language or non-formal representations, which demands an expert to transform these concepts in processes (reification). 
 
 <center>
- <img src="./images/ReificationExample1.png" alt="1st Reification Example"/>
+ <img src="./images/ReificationExample11.png" alt="1st Reification Example"/>
  Fig. Illustration of Reification procedure concepts turning into processes.
 </center>
 
@@ -211,6 +211,13 @@ https://www.cos.ufrj.br/uploadfile/publicacao/2825.pdf
 ### Instantiation
 
 Instantiation occurs when processes become executable chunks of work and a working plan is materialized. It is the transformation between process and actual work plans. The process is defined and every time the process is executed, entirely or partially, it generates a new instance.
+
+Let's suppose a person works in a lingerie store, which every year showcases products and the most beautiful models of the world takes the catwalk wearing super expensive bras (we're not citing any names here!!). The cashier follows the process below when each customer buys fragrances, purses or any other product(s). 
+
+<center>
+ <img src="./images/InstantiationExample.png" alt="Instantiation Example using BPMN"/>
+ Fig. Instantiation example using BPMN.
+</center>
 ***
 
 ### Execution/Enactment
