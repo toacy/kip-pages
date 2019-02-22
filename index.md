@@ -163,7 +163,7 @@ Each of these adaptations can result in one or multiple process transformations.
 This transformation represents when the concepts from the Conceptual View are transformed in processes. This means this process will now have a starting point, a flow, indications of responsibilities for groups of process activities, i.e., will have incorporated the structured elements that belong to the Conceptual View. The figure below illustrate the Conceptual view as a blue cloud with some concepts. All 4 processes (P1, P2, P3 and P4) are reified from the concepts in the cloud. These are definitions coming from and based on extensive research and best-practices on software development. The concepts in the cloud are tipically represented in natural language or non-formal representations, which demands an expert to transform these concepts in processes (reification). 
 
 <center>
- <img src="./images/ReificationExample.png" alt="1st Reification Example"/>
+ <img src="./images/ReificationExample1.png" alt="1st Reification Example"/>
  Fig. Illustration of Reification procedure concepts turning into processes.
 </center>
 
