@@ -164,7 +164,7 @@ This transformation represents when the concepts from the Conceptual View are tr
 
 <center>
  <img src="./images/ReificationExample.png" alt="1st Reification Example"/>
- Fig. Illustration of Reification procedure concepts.
+ Fig. Illustration of Reification procedure concepts turning into processes.
 </center>
 
 Let's try to make things clear with an example, represented in BPMN. Let's suppose a project manager is defining tasks for a project, and she/he gathered some concepts with the company's VP after a long meeting. The new reified process can be something like: 
