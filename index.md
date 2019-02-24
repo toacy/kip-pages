@@ -156,35 +156,89 @@ Although using standard processes result in positive outcomes such as predictabi
 
 Each of these adaptations can result in one or multiple process transformations. These transformations are specific and different throughout each stage change. Also, processes can suffer instantiation, enactment and improvements, even when they are not necessarily changed between stages. Read below to understand the differences of each transformation and/or adaptation processes can undergo. 
 
-
-
 ***
 
 ### Reification
 
-This transformation represents when the concepts from the Conceptual View are transformed in processes. This means this process will now have a starting point, a flow, indications of responsibilities for groups of process activities, i.e., will have incorporated the structured elements that belong to the Conceptual View.
+This transformation represents when the concepts from the Conceptual View are transformed in processes. This means this process will now have a starting point, a flow, indications of responsibilities for groups of process activities, i.e., will have incorporated the structured elements that belong to the Conceptual View. The figure below illustrate the Conceptual view as a blue cloud with some concepts. All 4 processes (P1, P2, P3 and P4) are reified from the concepts in the cloud. These are definitions coming from and based on extensive research and best-practices on software development. The concepts in the cloud are tipically represented in natural language or non-formal representations, which demands an expert to transform these concepts in processes (reification). 
+
+<center>
+ <img src="./images/ReificationExample11.png" alt="1st Reification Example"/>
+ Fig. Illustration of Reification procedure concepts turning into processes.
+</center>
+
+Let's try to make things clear with an example, represented in BPMN. Let's suppose a project manager is defining tasks for a project, and she/he gathered some concepts with the company's VP after a long meeting. The new reified process can be something like: 
+
+<center>
+ <img src="./images/ReificationExample2.png" alt="2nd Reification Example"/>
+ Fig. Illustration of reified process.
+</center>
+
+If at this point you're thinking "this is really hard to predict and it's a very creative procedure", guess what? You're so right!! And I don't mean to be mean, but there's some other aspects to consider such as time, team expertise, budget, technologies... None of these were in the conceptual view, right? That is why there are other transformations that are very likely to happen. Next topic will demonstrate the next one :) 
+
 
 ***
 
 ### Tailoring
 
-When in the Process View stage, processes may need to be modified to comply with business or environment needs. These modifications are called tailoring. In other words, a main established process will be adapted when running certain instances. For example, if one project of a company works with hazardous materials, this project might need to run different steps in order to comply with safety obligations, but at the same time, this project also runs the main established organizational process. 
+Processes may need to be modified to comply with business or environment needs. These modifications are called tailoring. In other words, a main established process will be adapted when running certain instances. For example, if one project of a company works with hazardous materials, this project might need to run different steps in order to comply with safety obligations, but at the same time, this project also runs the main established organizational process. 
 One of the modification operations a process can experience is Merge. This means two or more process activities can be merged into one. 
+
+As an example, let's suppose a worker has to collect, verify and store measures (e.g., size and weight) of parcels that are supposed to be mailed to clients, so a system can forsee delivery expenses. 
+
+A simple example using a common notation (BPMN) is shown below. 
+
+After posting all parcels in the post office service, some prices may vary. The original process does not consider that measures and prices might have to be updated. A tailored process to include this unforeseen activity is illustrated below. One process activity was added to the original process.
+
+<center>
+ <img src="./images/TailoringExample.png" alt="1st Tailoring Example using BPMN"/>
+ Fig. 1st Tailoring example using BPMN.
+</center>
+
+Another (simpler) example is when an online store starts accepting debit as payment method for centain cases (for example, if a client purchase is over $100). Then, the debit card option has to be added to the process. This can be done using Tailoring. The blue elements below are the elements that were added during this process tailoring. 
+
+<center>
+ <img src="./images/TailoringExample2.png" alt="2nd Tailoring Example using BPMN"/>
+ Fig. 2nd Tailoring example using BPMN.
+</center>
+
+Source: PILLAT, R. (2018). BPMNt: A proposal for flexible process tailoring representation in BPMN. Tese de Doutorado. Universidade Federal do Rio de Janeiro, Brasil. 
+https://www.cos.ufrj.br/uploadfile/publicacao/2825.pdf
+
 
 ***
 
 ### Instantiation
 
 Instantiation occurs when processes become executable chunks of work and a working plan is materialized. It is the transformation between process and actual work plans. The process is defined and every time the process is executed, entirely or partially, it generates a new instance.
+
+Let's suppose a person works in a lingerie store, which every year showcases products and the most beautiful models of the world takes the catwalk wearing super expensive bras (we're not citing any names here!!). The cashier follows the process below when each customer buys fragrances, purses or any other product(s). 
+
+<center>
+ <img src="./images/InstantiationExample.png" alt="Instantiation Example using BPMN"/>
+ Fig. Instantiation example using BPMN.
+</center>
+
 ***
 
 ### Execution/Enactment
 
-The execution of the Work plan is called enactment. Through enactment it is possible to generate logs of work plans executions.
+The execution of the Work plan is called enactment. Through enactment it is possible to generate logs of work plans executions. For every time ~ the very famous lingerie store cashier ~ follows the intantiated process, and a purchase is associated to a number (purchase 002 of March 1st, 2018), and the receptionist at a certain store says "Good morning and welcome!" to each client, this means the processes were enacted. 
+
+Every June (the foundation month of the brand), the main store located in NYC gives away free samples of new fragrances. Although not a formalized process activity, it must be something consistent every June.  
+
+<center>
+ <img src="./images/EnactmentExample.png" alt="Enactment Example using BPMN"/>
+ Fig. Enactment example using BPMN.
+</center>
 
 ***
 
 ### Improvement
 
 After enactment, logs of each process and instance execution are recorded. Analyzing these logs, looking either for pattern repetition or activities not executed, can be used as input to process Improvement. 
+
+Still on the famous lingerie store example, let's suppose that a certain department noticed the NYC store is the store that sells most of the new fragrances, and when analyzing the logs of the enacted process, they noticed it's the only store giving away free samples in June. Then, the main process can be improved, so every store gives free samples, in an attempt to increase new fragrance sales in every store. 
+
+
 ***
