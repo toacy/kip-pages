@@ -228,7 +228,6 @@ https://www.cos.ufrj.br/uploadfile/publicacao/2825.pdf
 
 Instantiation occurs when processes become executable chunks of work and a working plan is materialized. It is the transformation between process and actual work plans. The process is defined and every time the process is executed, entirely or partially, it generates a new instance.
 
-Let's suppose a person works in a lingerie store, which every year showcases products and the most beautiful models of the world takes the catwalk wearing super expensive bras (we're not citing any names here!!). The cashier follows the process below when each customer buys fragrances, purses or any other product(s). 
 
 <center>
  <img src="./images/InstantiationExample.png" alt="Instantiation Example using BPMN"/>
@@ -239,9 +238,7 @@ Let's suppose a person works in a lingerie store, which every year showcases pro
 
 ### Execution/Enactment
 
-The execution of the Work plan is called enactment. Through enactment it is possible to generate logs of work plans executions. For every time ~ the very famous lingerie store cashier ~ follows the instantiated process, and a purchase is associated to a number (purchase 002 of March 1st, 2018), and the receptionist at a certain store says "Good morning and welcome!" to each client, this means the processes were enacted. 
 
-Every June (the foundation month of the brand), the main store located in NYC gives away free samples of new fragrances. Although not a formalized process activity, it must be something consistent every June.  
 
 <center>
  <img src="./images/EnactmentExample.png" alt="Enactment Example using BPMN"/>
@@ -254,7 +251,7 @@ Every June (the foundation month of the brand), the main store located in NYC gi
 
 After enactment, logs of each process and instance execution are recorded. Analyzing these logs, looking either for pattern repetition or activities not executed, can be used as input to process Improvement. 
 
-Still on the famous lingerie store example, let's suppose that a certain department noticed the NYC store is the store that sells most of the new fragrances, and when analyzing the logs of the enacted process, they noticed it's the only store giving away free samples in June. Then, the main process can be improved, so every store gives free samples, in an attempt to increase new fragrance sales in every store. 
+
 
 
 ***
